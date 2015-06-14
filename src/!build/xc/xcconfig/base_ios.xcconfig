@@ -1,0 +1,28 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Build defaults.
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Conf=$(CONFIGURATION)
+Plat = ios
+
+Arch[sdk=iphoneos*] = arm
+Arch[sdk=iphonesimulator*] = x86
+
+ProjDir = $(PROJECT_DIR)/../..
+RootDir = $(ProjDir)/../../..
+
+BUILD_DIR = $(RootDir)/~bin
+PROJECT_TEMP_DIR = $(RootDir)/~tmp
+
+CONFIGURATION_BUILD_DIR=$(BUILD_DIR)/$(Plat)_$(Arch)_$(Conf)
+CONFIGURATION_TEMP_DIR=$(PROJECT_TEMP_DIR)/$(Plat)_$(Arch)_$(Conf)
+
+GCC_PREPROCESSOR_DEFINITIONS = $(PPFlagsConf) $(PPFlagsTarg) $(PPFlagsProj) $(inherited)
+
+CODE_SIGN_RESOURCE_RULES_PATH = $(SDKROOT)/ResourceRules.plist
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
