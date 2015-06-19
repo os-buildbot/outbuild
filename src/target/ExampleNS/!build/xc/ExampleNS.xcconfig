@@ -42,7 +42,6 @@ ENABLE_STRICT_OBJC_MSGSEND = YES
 GCC_C_LANGUAGE_STANDARD = gnu99
 
 HEADER_SEARCH_PATHS = $(inherited) $(RootDir)/src/extern
-LIBRARY_SEARCH_PATHS = $(inherited) $(RootDir)/src/extern/TestFlightSDK
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

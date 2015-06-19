@@ -14,7 +14,6 @@
 		1F1589461A62506D00AE07D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15893E1A62506D00AE07D4 /* AppDelegate.m */; };
 		1F1589471A62506D00AE07D4 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15893F1A62506D00AE07D4 /* Main.m */; };
 		1F1589481A62506D00AE07D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1589411A62506D00AE07D4 /* ViewController.m */; };
-		1F6804A61A6285770036DEA7 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6804A51A6285770036DEA7 /* libTestFlight.a */; };
 		1F80E3C31A62600000066717 /* ExampleNS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F80E3C21A62600000066717 /* ExampleNS.xcconfig */; };
 		1F80E3C81A62667C00066717 /* conf_adhoc_ios.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F80E3C51A62667C00066717 /* conf_adhoc_ios.xcconfig */; };
 		1F80E3C91A62667C00066717 /* conf_debug_ios.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F80E3C61A62667C00066717 /* conf_debug_ios.xcconfig */; };
@@ -33,7 +32,6 @@
 		1F15893F1A62506D00AE07D4 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Main.m; path = ../../Main.m; sourceTree = "<group>"; };
 		1F1589401A62506D00AE07D4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
 		1F1589411A62506D00AE07D4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
-		1F6804A51A6285770036DEA7 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = ../../../../extern/TestFlightSDK/libTestFlight.a; sourceTree = "<group>"; };
 		1F80E3C21A62600000066717 /* ExampleNS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ExampleNS.xcconfig; sourceTree = "<group>"; };
 		1F80E3C51A62667C00066717 /* conf_adhoc_ios.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = conf_adhoc_ios.xcconfig; path = "../../../../!build/xc/xcconfig/conf_adhoc_ios.xcconfig"; sourceTree = "<group>"; };
 		1F80E3C61A62667C00066717 /* conf_debug_ios.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = conf_debug_ios.xcconfig; path = "../../../../!build/xc/xcconfig/conf_debug_ios.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +45,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F9214D31A6291A200AD10CD /* libz.dylib in Frameworks */,
-				1F6804A61A6285770036DEA7 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				1F9214D21A6291A200AD10CD /* libz.dylib */,
-				1F6804A51A6285770036DEA7 /* libTestFlight.a */,
 			);
 			name = extern;
 			sourceTree = "<group>";
